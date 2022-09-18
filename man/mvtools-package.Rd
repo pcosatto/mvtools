@@ -4,12 +4,12 @@
 \name{mvtools-package}
 \alias{mvtools}
 \alias{mvtools-package}
-\title{mvtools: What the Package Does (One Line, Title Case)}
+\title{mvtools: Multivariate Analysis Tools}
 \description{
-What the package does (one paragraph).
+
 }
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
+\strong{Maintainer}: Pedro Cosatto \email{pcosatto@fi.uba.ar} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
 
 }
 \keyword{internal}
