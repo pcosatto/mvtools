@@ -1,5 +1,5 @@
 Package: mvtools
-Title: Multivariate analysis salad box
+Title: Multivariate analysis tools
 Version: 0.0.0.9000
 Authors@R: 
     person("Pedro", "Cosatto", "pcosatto@fi.uba.ar", role = c("aut", "cre"))
