@@ -16,11 +16,4 @@ Config/testthat/edition: 3
 Depends: 
     R (>= 2.10)
 LazyData: true
-
-..Warning in person1(given = given[[i]], family = family[[i]], middle = middle[[i]],  :
-
-     It is recommended to use 'given' instead of 'middle'.
-    ERROR
-   Authors@R field gives no person with maintainer role, valid email
-   address and non-empty name.
    
