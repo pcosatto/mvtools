@@ -2,7 +2,7 @@ Package: mvtools
 Title: Multivariate analysis tools
 Version: 0.0.0.9000
 Authors@R: 
-    person("Pedro", "Cosatto",role = c("aut", "cre") , "pcosatto@fi.uba.ar",
+    person("Pedro", "Cosatto",,role = c("aut", "cre") , "pcosatto@fi.uba.ar",
            comment = c(ORCID = "YOUR-ORCID-ID"))
 License: MIT + file LICENSE
 Encoding: UTF-8
