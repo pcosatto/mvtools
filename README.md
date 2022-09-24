@@ -6,9 +6,9 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-**mvtools** contains a collection of functions designed for people
-approaching multivariate analysis for the first time. The main topics
-are:
+**mvtools** :green_salad: contains a collection of functions designed
+for people approaching multivariate analysis for the first time. The
+main topics are:
 
 -   Basic statistical inference for the mean and covariance matrix.
 
