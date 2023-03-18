@@ -4,9 +4,9 @@
 \name{mvtools-package}
 \alias{mvtools}
 \alias{mvtools-package}
-\title{mvtools: Multivariate Analysis Tools}
+\title{mvtools: Multivariate analysis tools}
 \description{
-
+This package provides various tools for multivariate analysis in R.
 }
 \author{
 \strong{Maintainer}: Pedro Cosatto \email{pcosatto@fi.uba.ar} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
