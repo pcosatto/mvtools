@@ -5,8 +5,8 @@
 #' explanatory variables, with dimension \eqn{p} of at least 2.
 #' @param k Desired dimension in the reduced space, default is 2.
 #' @param diss Type of metric to produce the dissimilarities between observations.
-#' \texttt{minkowski} works with Minkowski metric of order \texttt{power},
-#' and \texttt{gower} works with Gower metric, using specific weights for variables.
+#' \code{minkowski} works with Minkowski metric of order \code{power},
+#' and \code{gower} works with Gower metric, using specific weights for variables.
 #' @param power Power of the Minkowski metric. Default is 2 (Euclidean).
 #' @param wght A vector of \eqn{p} weights, for the original variables in the
 #' Gower metric. Default is 1 for each variable.
@@ -15,7 +15,7 @@
 #' @param n_cores Number of CPU cores to be used in the parallelization. Default is 1.
 #' This option is not available in Windows.
 #' @param seed A seed for the random selection of points to split the data.
-#' @details This functions implements DCO-MDS (\textit{Divide and conquer multidimensional scaling}))
+#' @details This functions implements DCO-MDS (*Divide and conquer multidimensional scaling*)
 #' with Procrustes transformations to align the different groups.
 #' The scaling method is Kruskal distance scaling by minimizing Stress-1 with the SMACOF algorithm,
 #' using splines as a mapping procedure of the dissimilarities.
@@ -24,15 +24,15 @@
 #' There is a parallelization of the main procedure of scaling and aligning the sub-groups.
 #' @return A data matrix of \eqn{n} rows and \eqn{k} columns, with the coordinates
 #' of points in the reduced space.
+#' #' @references
+#' Borg, I., & Groenen, P. J. F. (2005). Modern multidimensional scaling: theory and applications. Springer Science & Business Media.
+#' Pedro Delicado y Cristian Pachon-Garcia. “Multidimensional Scaling for Big Data”. En: arXiv preprint arXiv:2007.11919 (2020).
+#'
 #' @examples
 #' x <- MASS::mvrnorm(n=5000,mu=c(0,0,0,0),diag(c(1,2,3,4)))
 #'
 #' Z <- procrustes_mdscal(x, k=2,diss='minkowski', power=1.5, seed = 16497)
 #' plot(Z, pch=20, main = 'Fast multidimensional scaling k=2')
-#'
-#' #' @references
-#' Borg, I., & Groenen, P. J. F. (2005). Modern multidimensional scaling: theory and applications. Springer Science & Business Media.
-#' Pedro Delicado y Cristian Pachon-Garcia. “Multidimensional Scaling for Big Data”. En: arXiv preprint arXiv:2007.11919 (2020).
 #'
 #' @rdname procrustes_mdscal
 #' @export
